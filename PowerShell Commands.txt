@@ -1,0 +1,6 @@
+# Format Table
+Get-whatever | ft
+
+# Select
+Get-whatever | select name
+
