@@ -34,6 +34,9 @@ ansible Homeserver01 -m win_ping
 #Get date from linux machine
 ansible linuxlaptop -a 'data' --user tech --ask-pass
 
+#Install SSH Server
+sudo apt-get install openssh-server
+
 
 
 
