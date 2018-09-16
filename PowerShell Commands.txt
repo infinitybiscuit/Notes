@@ -7,4 +7,6 @@ Get-whatever | select name
 # Tell Powershell to used TLS1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
+#Ansible set up Windows host for WinRM
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 "iex ((new-object net.webclient).DownloadString('https://github.com/ansible/ansible/raw/devel/examples/scripts/ConfigureRemotingForAnsible.ps1'))"
 
