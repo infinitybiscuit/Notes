@@ -1,0 +1,6 @@
+# Scan host/range
+nmap -v 10.0.0.0/24
+
+#Scan host/range specific port
+nmap -v -p 5986 10.0.0.10
+
