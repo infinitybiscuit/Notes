@@ -4,3 +4,7 @@ Get-whatever | ft
 # Select
 Get-whatever | select name
 
+# Tell Powershell to used TLS1.2
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+
