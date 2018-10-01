@@ -1,0 +1,3 @@
+# Netcat - check if a specific port is open
+nc -v <vcenter_IP> <port>
+
