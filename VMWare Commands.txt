@@ -1,0 +1,47 @@
+# Lists descriptions of device commands
+esxcli device	 
+
+# Lists descriptions for commands that manage Emulex elxnet drivers
+esxcli elxnet	
+
+# Lists descriptions of esxcli commands
+esxcli esxcli	 
+
+# FCOE (Fibre Channel over Ethernet) commands
+esxcli fcoe	 
+
+# Graphics commands
+esxcli graphics	
+
+# Hardware namespace used primarily for extracting information about the current system setup
+esxcli hardware	
+
+# iSCSI namespace for monitoring and managing hardware and software iSCSI
+esxcli iscsi	 
+
+# Network namespace for managing virtual networking including virtual switches and VMkernel network interfaces
+esxcli network	
+
+# Commands for managing NVMe devices
+esxcli nvme	
+
+# Commands for monitoring RDMA devices
+esxcli rdma	
+
+# Manage the shared system-wide swap space
+esxcli sched	
+
+# Includes commands for managing and installing image profiles and VIBs.
+esxcli software	Software namespace
+
+# Includes core storage commands and other storage management commands
+esxcli storage	
+
+# System monitoring and management command
+esxcli system	
+
+# Namespace for listing virtual machines and shutting them down forcefully
+esxcli vm	
+
+# Namespace for Virtual SAN management commands. See the vSphere Storage publication for details.
+esxcli vsan	
