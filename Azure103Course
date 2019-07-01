@@ -3,3 +3,5 @@
 #shell.azure.com
 
 #resources.azure.com
+
+Get-AzResourceGroup | Where-Object ResourceGroupName -NotLike "cloud*" | Remove-AzResourceGroup -Force
